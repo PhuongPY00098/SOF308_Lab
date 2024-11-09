@@ -12,7 +12,11 @@ import Lab2Bai1 from '../components/Lab2/bai1.vue'
 import Lab2Bai23 from '../components/Lab2/bai23.vue'
 import Lab2Bai4 from '../components/Lab2/bai4.vue'
 
-import BlogPage from '../components/Blog.vue'
+import Lab3 from '../components/Lab3/Lab3Component.vue'
+import Lab3Bai1 from '../components/Lab3/bai1.vue'
+import Lab3Bai2 from '../components/Lab3/bai2.vue' 
+import Lab3Bai3 from '../components/Lab3/bai3.vue'
+import Lab3Bai4 from '../components/Lab3/bai4.vue'
 
 
 const routes = [
@@ -22,13 +26,16 @@ const routes = [
     { path: '/Lab1/bai3', component: Bai3 },
     { path: '/Lab1/bai4', component: Bai4 },
 
-    { path: '/blog', component: BlogPage },
-    
-    // { path: '/lab2', component: Bai23 }
-    { path: '/about', component: Lab2 },
+    { path: '/lab2', component: Lab2 },
     { path: '/Lab2/bai1', component: Lab2Bai1 },
     { path: '/Lab2/bai23', component: Lab2Bai23 },
     { path: '/Lab2/bai4', component: Lab2Bai4 },
+
+    { path: '/lab3', component: Lab3 },
+    { path: '/Lab3/bai1', component: Lab3Bai1 },
+    { path: '/Lab3/bai2', component: Lab3Bai2 },
+    { path: '/Lab3/bai3', component: Lab3Bai3 },
+    { path: '/Lab3/bai4', component: Lab3Bai4 },
 ];
 
 const router = createRouter({
