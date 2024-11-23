@@ -120,6 +120,78 @@
               </li>
             </ul>
           </li>
+
+          <!-- Lab 5 -->
+          <li class="nav-item dropdown">
+            <router-link
+              to="/lab5"
+              class="nav-link dropdown-toggle"
+              id="navbarDropdown3"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Lab5
+            </router-link>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown3">
+              <li>
+                <router-link to="/Lab5/bai1" class="dropdown-item"
+                  >Bài 1</router-link
+                >
+              </li>
+              <li>
+                <router-link to="/Lab5/bai2" class="dropdown-item"
+                  >Bài 2</router-link
+                >
+              </li>
+              <li>
+                <router-link to="/Lab5/bai3" class="dropdown-item"
+                  >Bài 3</router-link
+                >
+              </li>
+              <li>
+                <router-link to="/Lab5/bai4" class="dropdown-item"
+                  >Bài 4</router-link
+                >
+              </li>
+            </ul>
+          </li>
+
+          <!-- Lab 6 -->
+          <li class="nav-item dropdown">
+            <router-link
+              to="/lab6"
+              class="nav-link dropdown-toggle"
+              id="navbarDropdown3"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Lab6
+            </router-link>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown3">
+              <li>
+                <router-link to="/Lab6/bai1" class="dropdown-item"
+                  >Bài 1</router-link
+                >
+              </li>
+              <li>
+                <router-link to="/Lab6/bai2" class="dropdown-item"
+                  >Bài 2</router-link
+                >
+              </li>
+              <li>
+                <router-link to="/Lab6/bai3" class="dropdown-item"
+                  >Bài 3</router-link
+                >
+              </li>
+              <li>
+                <router-link to="/Lab6/bai4" class="dropdown-item"
+                  >Bài 4</router-link
+                >
+              </li>
+            </ul>
+          </li>
         </ul>
       </div>
     </div>

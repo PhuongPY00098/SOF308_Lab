@@ -18,6 +18,18 @@ import Lab3Bai2 from '../components/Lab3/bai2.vue'
 import Lab3Bai3 from '../components/Lab3/bai3.vue'
 import Lab3Bai4 from '../components/Lab3/bai4.vue'
 
+import Lab5 from '../components/Lab5/Lab5Component.vue'
+import Lab5Bai1 from '../components/Lab5/bai1.vue'
+import Lab5Bai2 from '../components/Lab5/bai2.vue' 
+import Lab5Bai3 from '../components/Lab5/bai3.vue'
+import App4 from '../components/Lab5/bai4/App4.vue'
+
+import Lab6 from '../components/Lab6/Lab6Component.vue'
+import Lab6Bai1 from '../components/Lab6/bai1.vue'
+import Lab6Bai2 from '../components/Lab6/bai2.vue' 
+import Lab6Bai3 from '../components/Lab6/bai3.vue'
+import Lab6Bai4 from '../components/Lab6/bai4.vue'
+
 
 const routes = [
     { path: '/', component: Lab1 },
@@ -36,6 +48,18 @@ const routes = [
     { path: '/Lab3/bai2', component: Lab3Bai2 },
     { path: '/Lab3/bai3', component: Lab3Bai3 },
     { path: '/Lab3/bai4', component: Lab3Bai4 },
+
+    { path: '/lab5', component: Lab5 },
+    { path: '/Lab5/bai1', component: Lab5Bai1 },
+    { path: '/Lab5/bai2', component: Lab5Bai2 },
+    { path: '/Lab5/bai3', component: Lab5Bai3 },
+    { path: '/Lab5/bai4', component: App4 },
+
+    { path: '/lab6', component: Lab6 },
+    { path: '/Lab6/bai1', component: Lab6Bai1 },
+    { path: '/Lab6/bai2', component: Lab6Bai2 },
+    { path: '/Lab6/bai3', component: Lab6Bai3 },
+    { path: '/Lab6/bai4', component: Lab6Bai4 },
 ];
 
 const router = createRouter({
